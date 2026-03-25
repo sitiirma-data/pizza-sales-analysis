@@ -1,9 +1,11 @@
 # 🍕 Pizza Sales Analysis (SQL Project)
 
+This project demonstrates SQL-based analysis on transactional sales data to extract actionable business insights.
+
 ## 📌 Project Overview
 
 This project analyzes pizza sales data to uncover business insights using SQL, including revenue trends, product performance, and customer behavior.
-The analysis is conducted using SQL with PostgreSQL.
+The analysis is performed using SQL in PostgreSQL.
 
 ---
 
@@ -66,7 +68,7 @@ The following chart shows the total quantity sold for each pizza type:
 
 The top-performing pizzas are **classic_dlx, bbq_ckn, and hawaiian**, each selling over 2,400 units.
 
-On the other hand, some pizza types such as **brie_carre** have significantly lower sales, indicating lower customer preference.
+In contrast, some pizza types such as **brie_carre** have significantly lower sales, indicating lower customer preference.
 This suggests that a small number of menu items drive a large portion of total sales, which can support menu optimization and marketing focus.
 
 ---
@@ -83,8 +85,16 @@ The highest demand occurs on **January 8 (72 orders)**, while the lowest is on *
 
 ### 🥦 Vegetarian Pizza Performance
 
-Not all vegetarian pizzas perform equally—some contribute more significantly to total revenue and orders.
-This insight can support menu optimization and targeted promotions.
+![Vegetarian Performance](images/vegetarian_performance.png)
+
+Vegetarian pizzas show varied performance across menu items.
+
+**veggie_veg** is the top-performing vegetarian pizza, generating the highest total revenue (~$24K) and the highest number of orders (1,463).  
+In contrast, **green_garden** generates the lowest revenue among the vegetarian options.
+
+Overall, the performance gap suggests that customer preferences differ significantly within the vegetarian category. This insight can support menu optimization and targeted promotions for lower-performing items.
+
+This also indicates that not all vegetarian options are equally attractive to customers, highlighting opportunities for product improvement or marketing adjustments.
 
 ---
 
@@ -108,7 +118,8 @@ pizza-sales-analysis/
 │   ├── total_revenue.png
 │   ├── revenue_per_month.png
 │   ├── best_selling_pizza.png
-│   └── daily_orders_january.png
+│   ├── daily_orders_january.png
+│   └── vegetarian_performance.png
 └── README.md
 ```
 
@@ -116,4 +127,5 @@ pizza-sales-analysis/
 
 ## ✨ Author
 
-Siti Irma — Aspiring Data Analyst
+Siti Irma — Aspiring Data Analyst  
+📍 Indonesia  
