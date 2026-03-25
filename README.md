@@ -40,9 +40,13 @@ This analysis answers the following key questions:
 
 ### 💰 Total Revenue
 
-The business generates strong overall revenue, indicating consistent customer demand.
+Total revenue generated:
 
----
+**$817,860**
+
+![Total Revenue](images/total_revenue.png)
+
+The business generates strong revenue, indicating consistent customer demand across the dataset period.
 
 ### 📅 Monthly Revenue Trend
 
