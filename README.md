@@ -1,10 +1,8 @@
 # 🍕 Pizza Sales Analysis (SQL Project)
 
-This project analyzes pizza sales data to uncover business insights using SQL, including revenue trends, product performance, and customer behavior.
-
 ## 📌 Project Overview
 
-This project analyzes pizza sales data to generate business insights related to revenue, product performance, and customer ordering patterns.
+This project analyzes pizza sales data to uncover business insights using SQL, including revenue trends, product performance, and customer behavior.
 The analysis is conducted using SQL with PostgreSQL.
 
 ---
@@ -48,7 +46,7 @@ Total revenue generated:
 
 ![Total Revenue](images/total_revenue.png)
 
-The business generates strong revenue, indicating consistent customer demand across the dataset period.
+The business generates strong revenue, indicating consistent customer demand throughout the year.
 
 ---
 
@@ -56,7 +54,7 @@ The business generates strong revenue, indicating consistent customer demand acr
 
 ![Monthly Revenue](images/revenue_per_month.png)
 
-Revenue appears relatively stable across months, with slight fluctuations. The highest revenue occurs in July ($72K), while the lowest is around September–October ($64K). This indicates a consistent demand pattern with a potential mid-year peak period.
+Revenue appears relatively stable across months, with slight fluctuations. The highest revenue occurs in July (around $72K), while the lowest is around September–October (around $64K). This indicates a consistent demand pattern with a potential mid-year peak period.
 
 ---
 
@@ -75,7 +73,11 @@ This suggests that a small number of menu items drive a large portion of total s
 
 ### 📆 Daily Orders (January)
 
-Daily order analysis reveals fluctuations in demand, which can help optimize staffing and inventory management.
+![Daily Orders](images/daily_orders_january.png)
+
+Daily orders fluctuate between **44 and 72 orders per day**.
+
+The highest demand occurs on **January 8 (72 orders)**, while the lowest is on **January 25 (44 orders)**. This variation suggests changing daily customer demand, which can be useful for staffing and operational planning.
 
 ---
 
@@ -102,6 +104,11 @@ pizza-sales-analysis/
 ├── pizza_dataset.xlsx
 ├── sql/
 │   └── analysis.sql
+├── images/
+│   ├── total_revenue.png
+│   ├── revenue_per_month.png
+│   ├── best_selling_pizza.png
+│   └── daily_orders_january.png
 └── README.md
 ```
 
