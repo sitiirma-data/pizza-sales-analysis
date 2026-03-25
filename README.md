@@ -1,11 +1,12 @@
 # 🍕 Pizza Sales Analysis (SQL Project)
 
-This project demonstrates SQL-based analysis on transactional sales data to extract actionable business insights.
+This project analyzes pizza sales data using SQL (PostgreSQL).
 
 ## 📌 Project Overview
 
-This project analyzes pizza sales data to uncover business insights using SQL, including revenue trends, product performance, and customer behavior.
-The analysis is performed using SQL in PostgreSQL.
+This project explores transactional pizza sales data to identify key business insights. The analysis focuses on revenue performance, customer ordering patterns, and product-level performance.
+
+Using SQL, the project answers business-driven questions such as total revenue, monthly trends, best-selling products, and category performance (e.g., vegetarian pizzas). The results are presented through structured queries and visual summaries to support data-driven decision making.
 
 ---
 
@@ -77,7 +78,7 @@ This suggests that a small number of menu items drive a large portion of total s
 
 ![Daily Orders](images/daily_orders_january.png)
 
-Daily orders fluctuate between **44 and 72 orders per day**.
+Daily orders fluctuate between **44 and 72 orders per day**, indicating variability in daily customer demand.
 
 The highest demand occurs on **January 8 (72 orders)**, while the lowest is on **January 25 (44 orders)**. This variation suggests changing daily customer demand, which can be useful for staffing and operational planning.
 
@@ -92,9 +93,7 @@ Vegetarian pizzas show varied performance across menu items.
 **veggie_veg** is the top-performing vegetarian pizza, generating the highest total revenue (~$24K) and the highest number of orders (1,463).  
 In contrast, **green_garden** generates the lowest revenue among the vegetarian options.
 
-Overall, the performance gap suggests that customer preferences differ significantly within the vegetarian category. This insight can support menu optimization and targeted promotions for lower-performing items.
-
-This also indicates that not all vegetarian options are equally attractive to customers, highlighting opportunities for product improvement or marketing adjustments.
+Overall, the performance gap suggests that customer preferences differ significantly within the vegetarian category. This highlights opportunities for menu optimization, product improvement, and targeted promotions for lower-performing items.
 
 ---
 
