@@ -54,7 +54,7 @@ The business generates strong revenue, indicating consistent customer demand acr
 
 ![Monthly Revenue](images/revenue_per_month.png)
 
-Revenue appears relatively stable across months, with slight fluctuations. The highest revenue occurs in July (~$72K), while the lowest is around September–October (~$64K). This indicates a consistent demand pattern with a potential mid-year peak period.
+Revenue appears relatively stable across months, with slight fluctuations. The highest revenue occurs in July ($72K), while the lowest is around September–October ($64K). This indicates a consistent demand pattern with a potential mid-year peak period.
 
 ---
 
