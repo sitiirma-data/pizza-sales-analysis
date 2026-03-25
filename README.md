@@ -48,15 +48,29 @@ Total revenue generated:
 
 The business generates strong revenue, indicating consistent customer demand across the dataset period.
 
-### 📅 Monthly Revenue Trend
+---
 
-Revenue trends over time help identify sales patterns and potential seasonality, which can support better planning and promotions.
+### 📅 Monthly Revenue
+
+Monthly revenue shows how sales fluctuate over time:
+
+![Monthly Revenue](images/revenue_per_month.png)
+
+Revenue appears relatively stable across months, with slight fluctuations. The highest revenue occurs around mid-year, indicating potential peak sales periods.
+Peak revenue occurs in July (~$72K), while the lowest is around September–October (~$64K).
 
 ---
 
 ### 🍕 Best-Selling Pizza
 
-A small number of pizza types contribute the highest sales volume, showing that customer preferences are concentrated on specific menu items.
+The following chart shows the total quantity sold for each pizza type:
+
+![Best Selling Pizza](images/best_selling_pizza.png)
+
+The top-performing pizzas are **classic_dlx, bbq_ckn, and hawaiian**, each selling over 2,400 units.
+
+On the other hand, some pizza types such as **brie_carre** have significantly lower sales, indicating lower customer preference.
+This suggests that a small number of menu items drive a large portion of total sales, which can support menu optimization and marketing focus.
 
 ---
 
