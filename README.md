@@ -1,6 +1,6 @@
 # 🍕 Pizza Sales Analysis (SQL Project)
 
-This project analyzes pizza sales data using SQL (PostgreSQL).
+This project analyzes pizza sales data using SQL (PostgreSQL) to uncover insights on revenue trends, product performance, and customer behavior.
 
 ## 📌 Project Overview
 
@@ -70,7 +70,7 @@ The following chart shows the total quantity sold for each pizza type:
 The top-performing pizzas are **classic_dlx, bbq_ckn, and hawaiian**, each selling over 2,400 units.
 
 In contrast, some pizza types such as **brie_carre** have significantly lower sales, indicating lower customer preference.
-This suggests that a small number of menu items drive a large portion of total sales, which can support menu optimization and marketing focus.
+This suggests that a small number of menu items contribute to a large portion of total sales
 
 ---
 
@@ -80,7 +80,7 @@ This suggests that a small number of menu items drive a large portion of total s
 
 Daily orders fluctuate between **44 and 72 orders per day**, indicating variability in daily customer demand.
 
-The highest demand occurs on **January 8 (72 orders)**, while the lowest is on **January 25 (44 orders)**. This variation suggests changing daily customer demand, which can be useful for staffing and operational planning.
+The highest demand occurs on **January 8 (72 orders)**, while the lowest is on **January 25 (44 orders)**. This variation suggests changing daily customer demand, which can be useful for staffing and operational planning. This pattern indicates potential peak and low-demand days that can be leveraged for operational planning.
 
 ---
 
